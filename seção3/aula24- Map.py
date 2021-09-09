@@ -21,7 +21,23 @@ pessoas = [
 lista = [1,2,3,4,5,6,7]
 
 
+'''
+Lista de Produtos
+'''
+def aumento_preco(p):
+    p['preco'] = round(p['preco'] * 1.05, 2)
+    return p
 
-nova_lista = map(lambda x:x*2, lista)
-print(list(nova_lista))
+novos_produtos = map(aumento_preco, produtos)
+for produto in novos_produtos:
+    print(produto)
+
+
+
+'''
+Lista de Pessoas
+'''
+nomes = map(lambda p:p['nome'], pessoas)
+for pessoa in nomes:
+    print(pessoa)
 

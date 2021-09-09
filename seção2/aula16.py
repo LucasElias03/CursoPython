@@ -26,4 +26,3 @@ while True:
         print('Operador invalido')
 
 
-

@@ -9,13 +9,13 @@ lista_b = [1,2,3,4]
 # print(lista_soma)
 
 
-#
-#
-# lista_soma = []
-# for i, _ in enumerate(lista_b):
-#      lista_soma.append(lista_a[i] + lista_b[i])
-# print(lista_soma)
-#
+
+
+lista_soma = []
+for i, _ in enumerate(lista_b):
+     lista_soma.append(lista_a[i] + lista_b[i])
+print(lista_soma)
+
 
 
 
